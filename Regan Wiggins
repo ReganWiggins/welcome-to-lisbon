@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Welcome to Lisbon</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      .hero {
+        height: 100vh;
+        background-image: url('https://source.unsplash.com/1600x900/?lisbon,portugal');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+        text-align: center;
+        padding: 0 20px;
+      }
+
+      h1 {
+        font-size: 3rem;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="hero">
+      <h1>Welcome to Lisbon</h1>
+    </section>
+  </body>
+</html>
+
